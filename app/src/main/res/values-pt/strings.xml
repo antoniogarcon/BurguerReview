@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Opinião sobre Hamburguerias</string>
+    <string name="bt_login_acess">Logar</string>
+    <string name="bt_register_add">Cadastrar</string>
+    <string name="bt_register_cancel">Cancelar</string>
+    <string name="developedby">Esta aplicação foi desenvolvida por Antonio Carlos Baldacin Garçon</string>
+    <string name="hint_login_password">Senha</string>
+    <string name="hint_login_user">Usuario</string>
+    <string name="hint_notes">Conte-nos mais</string>
+    <string name="hint_register_adress">Localização da Hamburgueria</string>
+    <string name="hint_register_ambient_note">Você gostou do Ambiente? (0-10)</string>
+    <string name="hint_register_name">Nome da Hamburgueria</string>
+    <string name="hint_register_price_range">O que achou do preço (0-10)</string>
+    <string name="hint_register_sider_note">Você gostou dos acompanhamentos? 0-10)</string>
+    <string name="hint_register_snack_note">Você gostou do lanche? (0-10)</string>
+    <string name="hint_register_strong_point">Ponto forte da hamburgueria</string>
+    <string name="hint_register_weak_point">Ponto fraco da hamburgueria</string>
+    <string name="label_user">Usuario:</string>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_exit">Sair</string>
+    <string name="menu_register">Cadastrar Hamburgueria</string>
+    <string name="menu_review">Listar Hamburgueria</string>
+    <string name="register_adress">Endereço</string>
+    <string name="register_ambient_note">Nota para o ambiente</string>
+    <string name="register_name">Nome</string>
+    <string name="register_notes">Nota do ambiente</string>
+    <string name="register_price_range">Precço</string>
+    <string name="register_sider_note">Nota do acompanhamento</string>
+    <string name="register_snack_note">Nota do lanche</string>
+    <string name="register_strong_point">Ponto Forte</string>
+    <string name="register_weak_point">Ponto Fraco</string>
+    <string name="version">Versão 1.0.0</string>
+</resources>

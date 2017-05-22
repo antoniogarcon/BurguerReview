@@ -1,0 +1,312 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/simplePad"
+    tools:context="br.com.fiap.sub.burguerreview.Register"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Register Hamburger House"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryText"
+                android:textStyle="bold"
+                android:id="@+id/tv_fragment_title"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/register_name"
+                    android:textColor="@color/colorPrimaryText"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:textColor="@color/colorPrimaryText"
+                    android:hint="@string/hint_register_name"
+                    android:id="@+id/ed_register_name"
+                    android:textAlignment="textEnd"
+                    android:inputType="text"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/register_adress"
+                    android:textColor="@color/colorPrimaryText"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:textColor="@color/colorPrimaryText"
+                    android:hint="@string/hint_register_adress"
+                    android:id="@+id/ed_register_adress"
+                    android:textAlignment="textEnd"
+                    android:inputType="text"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/register_strong_point"
+                    android:textColor="@color/colorPrimaryText"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:textColor="@color/colorPrimaryText"
+                    android:hint="@string/hint_register_strong_point"
+                    android:id="@+id/ed_register_strong_point"
+                    android:textAlignment="textEnd"
+                    android:inputType="text"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/register_weak_point"
+                    android:textColor="@color/colorPrimaryText"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:textColor="@color/colorPrimaryText"
+                    android:hint="@string/hint_register_weak_point"
+                    android:id="@+id/ed_register_weak_point"
+                    android:textAlignment="textEnd"
+                    android:inputType="text"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/register_snack_note"
+                    android:textColor="@color/colorPrimaryText"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:textColor="@color/colorPrimaryText"
+                    android:hint="@string/hint_register_snack_note"
+                    android:id="@+id/ed_register_snack_note"
+                    android:textAlignment="textEnd"
+                    android:inputType="numberDecimal"
+                    android:maxLength="2"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/register_sider_note"
+                    android:textColor="@color/colorPrimaryText"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:textColor="@color/colorPrimaryText"
+                    android:hint="@string/hint_register_sider_note"
+                    android:id="@+id/ed_register_sider_note"
+                    android:textAlignment="textEnd"
+                    android:inputType="numberDecimal"
+                    android:maxLength="2"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/register_ambient_note"
+                    android:textColor="@color/colorPrimaryText"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:textColor="@color/colorPrimaryText"
+                    android:hint="@string/hint_register_ambient_note"
+                    android:id="@+id/ed_register_ambient_note"
+                    android:textAlignment="textEnd"
+                    android:inputType="numberDecimal"
+                    android:maxLength="2"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/register_price_range"
+                    android:textColor="@color/colorPrimaryText"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:textColor="@color/colorPrimaryText"
+                    android:hint="@string/hint_register_price_range"
+                    android:id="@+id/ed_register_price_range"
+                    android:textAlignment="textEnd"
+                    android:inputType="numberDecimal"
+                    android:maxLength="2"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="6"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/register_notes"
+                    android:textColor="@color/colorPrimaryText"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryText"
+                    android:hint="@string/hint_notes"
+                    android:layout_weight="5"
+                    android:id="@+id/ed_register_note"
+                    android:textAlignment="textEnd"
+                    android:inputType="text"
+                    android:lines="3"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/marginTopRegister"
+                tools:context="br.com.fiap.sub.burguerreview.Register"
+                >
+
+
+                <Button
+                    android:text="@string/bt_register_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_register_add"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:text="@string/bt_register_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_register_cancel"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

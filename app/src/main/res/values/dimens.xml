@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="headerH">100dp</dimen>
+    <dimen name="simplePad">8dp</dimen>
+    <dimen name="marginTopRegister">36dp</dimen>
+    <dimen name="itemSize">80dp</dimen>
+    <dimen name="row_itens">20dp</dimen>
+
+
+</resources>

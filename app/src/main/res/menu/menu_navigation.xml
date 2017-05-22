@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group  android:checkableBehavior="single">
+
+        <item
+            android:title="@string/menu_register"
+            android:icon="@drawable/ic_burguer"
+            android:id="@+id/menu_register"
+            android:checked="false"
+            />
+
+        <item
+            android:title="@string/menu_review"
+            android:icon="@drawable/ic_review"
+            android:id="@+id/menu_review"
+            android:checked="false"
+            />
+
+        <item
+            android:title="@string/menu_about"
+            android:icon="@drawable/ic_about"
+            android:id="@+id/menu_about"
+            android:checked="false"
+            />
+
+        <item
+            android:title="@string/menu_exit"
+            android:icon="@drawable/ic_exit"
+            android:id="@+id/menu_exit"
+            android:checked="false"
+            />
+
+    </group>
+</menu>
